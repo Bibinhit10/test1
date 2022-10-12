@@ -29,7 +29,7 @@ Route::group(['middleware'=>'AuthMiddleware'],function(){
     
     Route::post('/sabtb',"App\Http\Controllers\UsersController@sabtnam");
 
-});
+}); 
 
 Route::get('/sabtb',"App\Http\Controllers\UsersController@sabtnam");
 
